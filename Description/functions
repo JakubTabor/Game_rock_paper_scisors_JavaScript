@@ -6,3 +6,5 @@
 * We can return computerMove, because it requires to be outside of the function
 * And once we have local variable computerMove, i gonna assign to the variable the function pick move result
 * const computerMove = pickComputerMove();
+
+# And the parameter puts a value into a function
