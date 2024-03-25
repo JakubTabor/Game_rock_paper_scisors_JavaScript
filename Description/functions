@@ -4,3 +4,4 @@
 # Now we can use it to put all our code which repeat inside a function pick Computer move
 * At the end we can also type return to get value out of these function
 * We can return computerMove, because it requires to be outside of the function
+* And once we have local variable computerMove, i gonna assign to the variable the function pick move result
