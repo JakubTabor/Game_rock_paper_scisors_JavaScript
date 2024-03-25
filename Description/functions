@@ -8,3 +8,4 @@
 * const computerMove = pickComputerMove();
 
 # And the parameter puts a value into a function
+* Por example we put parameters into the functions bracket and then we put variable value when we call the function
