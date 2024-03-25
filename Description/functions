@@ -2,3 +2,4 @@
 * So functions let use reuse the code inside many times, we can type functions in the script section
 
 # Now we can use it to put all our code which repeat inside a function pick Computer move
+* At the end we can also type return to get value out of these function
