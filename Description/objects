@@ -6,3 +6,4 @@
 
 # An object is just another type of value, we can save it inside a variable or display
 * We use object to group related values together or to use multiply values together
+* log is a functions that is stored inside console object and these is method
