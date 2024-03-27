@@ -9,3 +9,4 @@
 * log is a functions that is stored inside console object and these is method
 
 # In our rock paper scissors game it helps us to track how many times we loose, win or tie, i add also reset button
+* We create the object outside the function to update it after every move not create new score every time
