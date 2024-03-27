@@ -2,3 +2,4 @@
 * An object is a group of multiply values together
 * We create object like that (const product = {}) and inside we pass properties and assign values to them
 * Next we can acces these values calling properties inside console
+* console.log(product.name) product - object, name - property
