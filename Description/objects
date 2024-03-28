@@ -12,3 +12,6 @@
 * We create the object outside the function to update it after every move not create new score every time
 * Next i create under the function if statement to fill the object of wins and loses
 * At the end i can update display message, so the alert
+
+# I add the reset button, so i specify that once i click on the button the score of all 3 properties become 0
+
