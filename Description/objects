@@ -11,3 +11,4 @@
 # In our rock paper scissors game it helps us to track how many times we loose, win or tie, i add also reset button
 * We create the object outside the function to update it after every move not create new score every time
 * Next i create under the function if statement to fill the object of wins and loses
+* At the end i can update display message, so the alert
