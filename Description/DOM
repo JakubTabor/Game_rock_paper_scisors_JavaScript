@@ -8,3 +8,4 @@
 * innerHTML control all HTML inside the body
 
 # The querySelector lets us get any element from the page and put inside our JavaScript
+* Inside the brackets we specify, which element we want to get
