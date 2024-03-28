@@ -3,3 +3,4 @@
 * And then we are accessing property of body object (innerHTML)
  When we change innerHTML property the web page changes, so the document object and the web page are linked together
 
+# document.body, take the <body> element and put inside our JavaScript
