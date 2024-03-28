@@ -1,2 +1,3 @@
 # To create document object model we type document.body.innerHTML and assign the value to it
+* document is a built in object, next we are accessing property of document object (body)
 
