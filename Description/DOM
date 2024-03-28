@@ -1,4 +1,5 @@
 # To create document object model we type document.body.innerHTML and assign the value to it
 * Document is a built in object, next we are accessing property of document object (body)
 * And then we are accessing property of body object (innerHTML)
+ When we change innerHTML property the web page changes, so the document object and the web page are linked together
 
