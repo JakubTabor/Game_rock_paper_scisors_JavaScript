@@ -9,3 +9,4 @@
 
 # The querySelector lets us get any element from the page and put inside our JavaScript
 * Inside the brackets we specify, which element we want to get
+* When html element is inside JavaScript is just JavaScript object and it has properties and methods, that we can use
