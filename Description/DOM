@@ -13,3 +13,4 @@
 
 # .classList gives us control over the class attribute
 * To add class we type buttonElement.classList (classList) is an object
+* We can type .add(), to add a class to an element (class name inside)
