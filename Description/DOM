@@ -16,3 +16,4 @@
 * We can type .add(), to add a class to an element (class name inside)
 * So whenever we click the button it will add a class to the button, that we typed
 * And when we click the button and change class to previous, we can remove current class style
+* To do that we use class.List.remove(), inside the class that we want to remove
