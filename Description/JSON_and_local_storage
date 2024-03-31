@@ -7,3 +7,4 @@
 
 # We are gonna use these in our rock paper scissors game, it will save it in local storage
 * So in the part, where we update the score in our project, we are gonna save it in local storage
+* And local storage only support strings, to get these string out of the local storage we use method getItem()
