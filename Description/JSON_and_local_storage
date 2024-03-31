@@ -3,3 +3,4 @@
 * To convert JSON to JavaScript we use JSON.parse() inside brackets JSON string
 
 # Local storage save values more permamently
+* Because variables are temporary, they exist on current page, if we refresh or close the page they are deleted
