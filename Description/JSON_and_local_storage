@@ -1,3 +1,4 @@
 # JSON is similar to JavaScript object syntax and it can be understood by other programing languages
 * When we convert JavaScript object into JSON object using stringify it results in string, but it not support the functions
+* To convert JSON to JavaScript we use JSON.parse() inside brackets JSON string
 
