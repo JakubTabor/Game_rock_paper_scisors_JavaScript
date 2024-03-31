@@ -6,3 +6,4 @@
 * Because variables are temporary, they exist on current page, if we refresh or close the page they are deleted
 
 # We are gonna use these in our rock paper scissors game, it will save it in local storage
+* So in the part, where we update the score in our project, we are gonna save it in local storage
