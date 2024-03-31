@@ -7,4 +7,6 @@
 
 # We are gonna use these in our rock paper scissors game, it will save it in local storage
 * So in the part, where we update the score in our project, we are gonna save it in local storage
+* To store it, first we type localStorage object and to save a value inside we use method .setItem()
 * And local storage only support strings, to get these string out of the local storage we use method getItem()
+* When we load the page we are gonna get that value out of local storage
