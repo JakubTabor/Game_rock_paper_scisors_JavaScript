@@ -1,2 +1,2 @@
 # JSON is similar to JavaScript object syntax and it can be understood by other programing languages
-
+* When we convert JavaScript object into JSON object using stringify it results in string
