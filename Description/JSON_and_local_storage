@@ -15,6 +15,6 @@
 * Next instead of resetting all scores to 0, we are gonna use score from local storage
 * But first we need to convert it once again into an object using JSON.parse
 * We also need to remove score from the local storage when we click reset button using method removeItem
- * But not the score doesnt exist in localStorage, so we get null, to fix these we are gonna set default value, which will be 0
-
+* But not the score doesnt exist in localStorage, so we get null, to fix these we are gonna set default value, which will be 0
+* We also need to change the variable score from const to let, because it is not variable that we reassign
 
