@@ -14,3 +14,4 @@
 # Now i gonna use it to get score object, first convert it into string using JSON.stringify
 * Next instead of resetting all scores to 0, we are gonna use score from local storage
 * But first we need to convert it once again into an object using JSON.parse
+* We also need to remove score from the local storage when we click 
