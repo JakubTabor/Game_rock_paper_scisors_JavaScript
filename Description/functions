@@ -10,3 +10,4 @@
 # And the parameter puts a value into a function
 * Por example we put parameters into the functions bracket and then we put variable value when we call the function
 * To assign default of parameter we type it after parameter (parameter = 1) 
+* And now if we don't type the the value once we call the function the default value will be assigned
