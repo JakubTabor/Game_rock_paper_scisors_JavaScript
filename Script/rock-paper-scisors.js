@@ -5,6 +5,25 @@ let score = JSON.parse(localStorage.getItem
 
 updateScoreElement();
 
+let isAutoPlaying = false;
+let intervalId;
+
+const autoPlay = () => {
+  
+};
+function autoPlay() {
+  if (!isAutoPlaying) {
+    intervalId = setInterval(() => {
+      const playerMove = pickComputerMove();
+      playGame(playerMove);  
+    }, 1000);
+    isAutoPlaying = true;
+  } else {
+    clearInterval(intervalId);
+    isAutoPlaying = false;
+  } 
+}
+
 function playGame(playerMove) {
   const computerMove =  pickComputerMove();
 
