@@ -8,9 +8,6 @@ updateScoreElement();
 let isAutoPlaying = false;
 let intervalId;
 
-const autoPlay = () => {
-  
-};
 function autoPlay() {
   if (!isAutoPlaying) {
     intervalId = setInterval(() => {
