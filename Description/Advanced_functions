@@ -4,3 +4,4 @@
 
 # We can also add keydown event, so when we press r it will choose rock as our move, and so on with p and s
 * And i add event as a parameter of our function
+* So once we type r, p, s, addEventListener will save the event object in the parameter and run the function 
