@@ -1,2 +1,2 @@
 # Every HTML element has a method addEventListener(), it lets us run some code when we interact with the element, just like onclick
-
+* It takes 2 parameters, first is the event and second is a function
