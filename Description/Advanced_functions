@@ -2,3 +2,4 @@
 * It takes 2 parameters, first is the event and second is a function
 * It let us add multiple event listeners for an event or remove event listeners
 
+# We can also add keydown event, so when we press r it will choose rock as our move, and so on with p and s
