@@ -28,6 +28,11 @@ function autoPlay() {
   }
 }
 
+document.querySelector('.js-auto-playing-button')
+  .addEventListener('click', () => {
+    autoPlay();
+  });
+
 
 document.querySelector('.js-move-button').
 addEventListener('click', () => {
@@ -51,6 +56,10 @@ document.body.addEventListener('keydown', (event) => {
     playGame('paper');
   } else  if (event.key === 's') {
     playGame('scissors');
+  } else if (event.key === 'a') {
+    autoPlay();
+  } else if (event.key === 'backspace') {
+    showResetConfirmation();
   }
 });
 
@@ -127,4 +136,12 @@ function pickComputerMove() {
   }
 
   return computerMove;
+}
+
+function resetScore() {
+  score.wins = 0;
+  score.losses = 0;
+  score.ties = 0;
+  localStorage.removeItem('score');
+  updateScoreElement();
 }
