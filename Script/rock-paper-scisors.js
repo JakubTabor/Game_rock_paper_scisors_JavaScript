@@ -15,11 +15,19 @@ function autoPlay() {
       playGame(playerMove);  
     }, 1000);
     isAutoPlaying = true;
+
+    document.querySelector('.js-auto-play-button')
+      .innerHTML = 'Stop Playing';
+
   } else {
     clearInterval(intervalId);
     isAutoPlaying = false;
-  } 
+
+    document.querySelector('.js-auto-playing-button')
+      .innerHTML = 'Auto Play';
+  }
 }
+
 
 document.querySelector('.js-move-button').
 addEventListener('click', () => {
@@ -35,11 +43,6 @@ document.querySelector('.js-scissors-button').
 addEventListener('click', () => {
   playGame('scissors');
 });
-
-//document.querySelector('.js-reset-score-button').
-//addEventListener('click', () => {
-
-//})
 
 document.body.addEventListener('keydown', (event) => {
   if (event.key === 'r') {
