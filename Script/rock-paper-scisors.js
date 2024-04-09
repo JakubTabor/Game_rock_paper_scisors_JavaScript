@@ -145,3 +145,36 @@ function resetScore() {
   localStorage.removeItem('score');
   updateScoreElement();
 }
+
+document.querySelector('.js-reset-score-button')
+  .addEventListener('click', () => {
+    showResetConfirmation();
+  });
+
+function showResetConfirmation() {
+  document.querySelector('.js-reset-confirmation')
+    .innerHTML = `Are you sure you want to reset the score?
+    <button class="js-reset-confirmation-yes reset-confirm-button">
+    Yes
+    </button>
+    <button class="je-reset-confirmation-no reset-confirm-button">
+    No
+    </button>
+    `;
+
+  document.querySelector('.js-reset-confirm-yes')
+    .addEventListener('click', () => {
+      resetScore();
+      hideResetConfirmation();
+    });
+
+  document.querySelector('js-reset-confirmation-no')
+    .addEventListener('click', () => {
+      hideResetConfirmation();
+    });
+}
+
+function hideResetConfiramtion() {
+  document.querySelector('.js-reset-confirmation')
+    .innerHTML = '';
+}
