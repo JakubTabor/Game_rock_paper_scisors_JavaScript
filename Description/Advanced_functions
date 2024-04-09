@@ -12,3 +12,4 @@
 * Then we use clearInterval function to stop the interval, i pass inside current id and we can set is autoplaying to false
 
 # Now to improve todoList project i move onclick attribute to JavaScript using eventListener
+* To add eventListener to the delete button i need to move it to the page
