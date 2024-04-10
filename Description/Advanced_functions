@@ -14,3 +14,4 @@
 # Now to improve todoList project i move onclick attribute to JavaScript using eventListener
 * To add eventListener to the delete button i need to move it to the page
 * So i use querySelectorAll and all need to be, because we need to select all delete elements on the page
+* And i loop through these list of delete buttons using forEach
