@@ -19,3 +19,4 @@
 # Another advanced array methods are filter() and map()
 * For filter() we put inside function and 2 parameters: value and index
 * function will take each value and save inside value in meantime running the function
+* These inner function will return the value (boolean), like true
