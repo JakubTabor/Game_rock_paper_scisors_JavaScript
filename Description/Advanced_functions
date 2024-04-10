@@ -17,3 +17,4 @@
 * And i loop through these list of delete buttons using forEach
 
 # Another advanced array methods are filter() and map()
+* For filter() we put inside function and 2 parameters: value and index
