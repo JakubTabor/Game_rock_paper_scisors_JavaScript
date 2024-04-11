@@ -4,4 +4,6 @@
 
 # [JSON and local storage](https://github.com/JakubTabor/Game_rock_paper_scisors_JavaScript/blob/rock-paper-scissors/Description/JSON_and_local_storage)
 
+# [DOM - document object model](https://github.com/JakubTabor/Game_rock_paper_scisors_JavaScript/blob/rock-paper-scissors/Description/DOM)
+
 # [Advanced functions](https://github.com/JakubTabor/Game_rock_paper_scisors_JavaScript/blob/rock-paper-scissors/Description/Advanced_functions)
