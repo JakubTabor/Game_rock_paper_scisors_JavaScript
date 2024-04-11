@@ -3,3 +3,5 @@
 # If you want to reset you can press Enter and for autoplay you can press a
 
 # [JSON and local storage](https://github.com/JakubTabor/Game_rock_paper_scisors_JavaScript/blob/rock-paper-scissors/Description/JSON_and_local_storage)
+
+# [Advanced functions](https://github.com/JakubTabor/Game_rock_paper_scisors_JavaScript/blob/rock-paper-scissors/Description/Advanced_functions)
