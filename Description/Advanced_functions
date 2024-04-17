@@ -21,3 +21,5 @@
 * function will take each value and save inside value in meantime running the function
 * These inner function will return the value (boolean), like true
 * filter function creates new array and if inner function returns true it will put the value in the new array
+
+# Another feature is Closure, it means that the value is gets packaged together with the function
