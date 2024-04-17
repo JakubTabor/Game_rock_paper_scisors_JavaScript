@@ -30,3 +30,4 @@
 * To save previous id of the interval we save it inside a variable
 * Then we use clearInterval function to stop the interval, i pass inside current id and we can set is autoplaying to false
 
+# I gonna use arrow function in the part where i pass a function into another function, in autoPlay	
