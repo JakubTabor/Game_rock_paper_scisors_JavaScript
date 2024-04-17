@@ -23,3 +23,4 @@
 * filter function creates new array and if inner function returns true it will put the value in the new array
 
 # Another feature is Closure, it means that the value is gets packaged together with the function
+* So event if value index gets deleted after the loop, we can click delete button later and function have access to index
