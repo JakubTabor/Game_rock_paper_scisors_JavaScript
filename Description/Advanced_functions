@@ -24,3 +24,6 @@
 
 # Another feature is Closure, it means that the value is gets packaged together with the function
 * So event if value index gets deleted after the loop, we can click delete button later and function have access to index
+
+# We are gonna add autoplay button and the moves will be every 1 second
+
