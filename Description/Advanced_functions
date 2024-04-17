@@ -28,4 +28,5 @@
 # We are gonna add autoplay button and the moves will be every 1 second
 * And i add also stop auto play button, we use fact that setInterval() return a number and we can use it to stop the interval
 * To save previous id of the interval we save it inside a variable
+* Then we use clearInterval function to stop the interval, i pass inside current id and we can set is autoplaying to false
 
